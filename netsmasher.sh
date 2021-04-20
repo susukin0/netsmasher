@@ -36,7 +36,7 @@ read -p ' ' ohayogosayumasu
 
 scan(){
 echo -e "\n [do you want to also scan these fellows?]"
-read -p $'THEN  yes/no >_: ' bakayaro
+read -p $'THEN   yes/no  >_: ' bakayaro
 if [[ "$bakayaro" == "yes" ]]; then
         clear
         
