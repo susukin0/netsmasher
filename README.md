@@ -1,5 +1,5 @@
 # netsmasher
-allows you to show which ips are in your network
+allows you to see & scan ips in your network
 ## CLONNING and COMPILE-RUNNING
 
 ```sh
