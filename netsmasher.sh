@@ -25,23 +25,23 @@ ifconfig | grep "inet 192." | cut -c 13-26
 banner
 
  
-printf "\n ips listed below are in your network!\n\n"
+printf "\n [ips listed below are in your network!]\n\n"
 ip
 
-printf "\n your ip is:\n\n" 
+printf "\n [your ip is:]\n\n" 
 myip 
 
 echo -e "\n\n[hit enter to continue] "
 read -p ' ' ohayogosayumasu
 
 scan(){
-echo -e "\n ~do you want to also scan these fellows?~"
+echo -e "\n [do you want to also scan these fellows?]"
 read -p $'THEN  yes/no >_: ' bakayaro
 if [[ "$bakayaro" == "yes" ]]; then
         clear
         
         ip > scan.txt 
-        echo -e "\n SCANNING ..."
+        echo -e "\nSCANNING ..."
         
         cat scan.txt
         echo -e "SCANNING ..."
