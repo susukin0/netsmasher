@@ -1,5 +1,9 @@
 # netsmasher
 Allows you to see & scan ips in your network
+# requirements
+ettercap
+wireshark
+nmap
 ## CLONNING and COMPILE-RUNNING
 
 ```sh
