@@ -1,5 +1,5 @@
 # netsmasher
-Allows you to see & scan ips in your network
+Allows you to scan & arp poisining ips in your network
 # requirements
 ettercap
 wireshark
