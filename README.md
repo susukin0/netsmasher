@@ -7,7 +7,7 @@ nmap
 ## CLONNING and COMPILE-RUNNING
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Passhyk/netsmasher/main/netsmasher.sh >netsmasher.sh && \
+curl -fsSL https://raw.githubusercontent.com/susukin0/netsmasher/main/netsmasher.sh >netsmasher.sh && \
  chmod 755 netsmasher.sh && \
  ./netsmasher.sh 
 
